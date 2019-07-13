@@ -1,67 +1,40 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Train Scheduler</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<link rel="stylesheet" href="style.css">
-	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Khula&display=swap" rel="stylesheet">
-	
-</head>
-<body>
-	<div id="top" class="text-center jumbotron col-xs-offset-1 col-xs-10">
-		<h1 id="title" class="display-3">Anytime is Train Time</h1>
-		<h2 id="subtitle" class="lead">Choo Choo. Chee Chee.</h2>
-	</div>
-	<div class= panel-group>
-		<div id="trainList" class="panel panel-primary col-xs-offset-1 col-xs-10">
-			 <div class="panel-heading">Current Train Schedule</div>
-		     <div class="panel-body">
-		     	<table class="table">
-				  <thead>
-				    <tr>
-				      <th>Train Name</th>
-				      <th>Destination</th>
-				      <th>Frequency (min)</th>
-				      <th>Next Arrival</th>
-				      <th>Minutes Away</th>
-				    </tr>
-				  </thead>
-				  <tbody id="trainArea">
-				    
-				  </tbody>
-				</table>
-		     </div>
-		</div>
-		<div id="trainAdd" class="panel panel-primary col-xs-offset-1 col-xs-10">
-			 <div class="panel-heading">Add Train</div>
-		     <div class="panel-body">
-		     	<form>
-				  <div class="form-group">
-				    <label for="formGroupExampleInput">Train Name</label>
-				    <input type="text" class="form-control" id="name-input" placeholder="">
-				  </div>
-				  <div class="form-group">
-				    <label for="formGroupExampleInput2">Destination</label>
-				    <input type="text" class="form-control" id="destination-input" placeholder="">
-				  </div>
-				  <div class="form-group">
-				    <label for="formGroupExampleInput2">First Train Time (HH:mm - military time)</label>
-				    <input type="text" class="form-control" id="start-input" placeholder="">
-				  </div>
-				  <div class="form-group">
-				    <label for="formGroupExampleInput2">Frequency (min)</label>
-				    <input type="text" class="form-control" id="frequency-input" placeholder="">
-				  </div>
-				  <button id="trainbutton" type="submit" class="btn btn-default">Submit</button>
-				</form>
-		     </div>
-		</div>
-	</div>
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/3.7.1/firebase.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-	<script type="text/javascript" src="train.js"></script>
-</body>
+.jumbotron {
+    background-color: #f8f2ec;
+    color: #333333;
+    margin: 3%;  
+    text-align: center;
+}
 
-</html>
+img {
+    -webkit-filter: grayscale(1); 
+                filter: grayscale(1); 
+}
+
+h1 {
+    font-family: 'Homemade Apple', cursive;
+}
+
+h3 {
+    font-family: 'Special Elite', cursive;
+}
+body {
+      background-color: #f8f2ec;
+      color: black;
+      font-family: 'Tinos', serif;
+}
+
+.btn.btn-default {
+    color: #333333;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(to bottom, #FFFFFF, #E0E0E0);
+    border-color: #CCCCCC #CCCCCC #CCCCCC;     
+}
+
+.btn.btn-default:hover {
+    color: #333333;
+    background-color: #E0E0E0;
+    background-image: linear-gradient(to bottom, #E0E0E0, #E0E0E0);
+    border-color: #CCCCCC #CCCCCC #CCCCCC;
+}
+
+
