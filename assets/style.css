@@ -27,7 +27,8 @@ body {
     color: #333333;
     background-color: #FFFFFF;
     background-image: linear-gradient(to bottom, #FFFFFF, #E0E0E0);
-    border-color: #CCCCCC #CCCCCC #CCCCCC;     
+    border-color: #CCCCCC #CCCCCC #CCCCCC;
+    font-family: 'Sahitya', serif;
 }
 
 .btn.btn-default:hover {
@@ -36,3 +37,10 @@ body {
     background-image: linear-gradient(to bottom, #E0E0E0, #E0E0E0);
     border-color: #CCCCCC #CCCCCC #CCCCCC;
 }
+
+.container {
+    font-family: 'Peddana', serif;
+    font-size: 20px;
+}
+
+
