@@ -1,0 +1,46 @@
+.jumbotron {
+    background-color: #f8f2ec;
+    color: #333333;
+    margin: 3%;  
+    text-align: center;
+}
+
+img {
+    -webkit-filter: grayscale(1); 
+                filter: grayscale(1); 
+}
+
+h1 {
+    font-family: 'Homemade Apple', cursive;
+}
+
+h3 {
+    font-family: 'Special Elite', cursive;
+}
+body {
+      background-color: #f8f2ec;
+      color: black;
+      font-family: 'Tinos', serif;
+}
+
+.btn.btn-default {
+    color: #333333;
+    background-color: #FFFFFF;
+    background-image: linear-gradient(to bottom, #FFFFFF, #E0E0E0);
+    border-color: #CCCCCC #CCCCCC #CCCCCC;
+    font-family: 'Sahitya', serif;
+}
+
+.btn.btn-default:hover {
+    color: #333333;
+    background-color: #E0E0E0;
+    background-image: linear-gradient(to bottom, #E0E0E0, #E0E0E0);
+    border-color: #CCCCCC #CCCCCC #CCCCCC;
+}
+
+.container {
+    font-family: 'Peddana', serif;
+    font-size: 20px;
+}
+
+
