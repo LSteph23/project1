@@ -36,11 +36,19 @@ body {
     background-color: #E0E0E0;
     background-image: linear-gradient(to bottom, #E0E0E0, #E0E0E0);
     border-color: #CCCCCC #CCCCCC #CCCCCC;
+
 }
 
 .container {
     font-family: 'Peddana', serif;
-    font-size: 20px;
+    font-size: 24px;
 }
+
+#quotes.form-control {
+    font-size: 24px;
+    
+}
+
+
 
 
