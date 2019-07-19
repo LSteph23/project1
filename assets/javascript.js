@@ -5,7 +5,8 @@
         
         var trumpURL = 'https://api.whatdoestrumpthink.com/api/v1/quotes/random'
         var shakesURL = 'https://api.funtranslations.com/translate/shakespeare.json?text='
-        
+
+     
 
             $("#button").click(function(){
                 $.ajax({
@@ -33,7 +34,6 @@
                 event.preventDefault();
                 var userInput = $("#quotes").val().trim()
                 
-                
                 $.ajax({
                     url: shakesURL + userInput,
                     method: "GET"
@@ -41,7 +41,10 @@
                 
                 }).done(function(response) {
                 $("#custom-quote").html('"' + response.contents.translated + '"');
-                    
-                })
-            });
-               
+                
+                console.log(response.contents.translated)
+         
+           });
+
+        });
+           
