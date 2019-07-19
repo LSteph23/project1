@@ -63,6 +63,7 @@ $("#button").click(function () {
             )
         );
         
+
         console.log(childSnapshot.val())
 
 
@@ -72,4 +73,3 @@ $("#button").click(function () {
 
     })
 });
-
