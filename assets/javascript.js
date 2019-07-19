@@ -101,8 +101,8 @@ $("#button").click(function () {
         var trump = childSnapshot.val().trump;
         var shake = childSnapshot.val().shake;
 
-        $("#history-table > tbody").append(
-            $("<tr>").append(
+        $("#history-table > tbody").prepend(
+            $("<tr>").prepend(
                 $("<td>").text(trump),
                 $("<td>").text(shake)
             )
