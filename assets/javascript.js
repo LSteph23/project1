@@ -77,6 +77,12 @@ $("#button").click(function () {
                 })
             });
 
+    // Used new minifying tech to see what it looks like but decided right now we didn't like it because it's visually hard to understand and we don't have a very large javascript file to begin with //
+
+    // var trumpURL="https://api.whatdoestrumpthink.com/api/v1/quotes/random",shakesURL="https://api.funtranslations.com/translate/shakespeare.json?text=";$("#button").click(function(){$.ajax({url:trumpURL,method:"GET"}).done(function(t){$("#trump-quote").html('"'+t.message+'"');var a=t.message;console.log(a),$.ajax({url:shakesURL+a,method:"GET"}).done(function(t){$("#shakespeare-quote").html('"'+t.contents.translated+'"')})})});
+
+    // 
+
     // Creates ajax call for second translate button for user-input text
 
             $("#button-two").click(function(event){
